@@ -2,7 +2,7 @@
 #SBATCH --job-name=python_test
 #SBATCH --output=python_test.out
 #SBATCH --error=python_test.err
-#SBATCH --time=00:01:00
+#SBATCH --time=01:00:00
 #SBATCH --partition=large
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
